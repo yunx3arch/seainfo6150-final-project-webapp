@@ -4,9 +4,12 @@ exports[`renders the home component correctly 1`] = `
 <div>
   <div>
     The home page
+    <h1>
+      I changed this homepage
+    </h1>
     <img
       alt="tree frog"
-      src="/images/treefrog.jpg"
+      src="treefrog.jpg"
     />
     <div>
       <form>
@@ -45,6 +48,39 @@ exports[`renders the home component correctly 1`] = `
             Baz
           </option>
         </select>
+        <label
+          for="foo-yes"
+        >
+          yes
+        </label>
+        <input
+          id="foo-yes"
+          name="foo"
+          type="radio"
+          value="yes"
+        />
+        <label
+          for="foo-no"
+        >
+          no
+        </label>
+        <input
+          id="foo-no"
+          name="foo"
+          type="radio"
+          value="no"
+        />
+        <label
+          for="foo-maybe"
+        >
+          maybe
+        </label>
+        <input
+          id="foo-maybe"
+          name="foo"
+          type="radio"
+          value="maybe"
+        />
         <input
           type="submit"
           value="Send it"

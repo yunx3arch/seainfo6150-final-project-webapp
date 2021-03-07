@@ -5,6 +5,7 @@ const Form = () => {
   function onSubmit(e) {
     e.preventDefault();
     const data = new FormData(e.target);
+    console.log("DATA", data.get("foo"));
     setSubmittedForm(data);
   };
 
@@ -24,6 +25,9 @@ const Form = () => {
               <option value="bar">Bar</option>
               <option value="baz">Baz</option>
             </select>
+            <label htmlFor="foo-yes">yes</label><input type="radio" name="foo" id="foo-yes" value="yes" />
+            <label htmlFor="foo-no">no</label><input type="radio" name="foo" id="foo-no" value="no" />
+            <label htmlFor="foo-maybe">maybe</label><input type="radio" name="foo" id="foo-maybe" value="maybe" />
             <input type="submit" value="Send it" />
           </form>
         )
