@@ -10,11 +10,11 @@ Link to final project assignment: https://northeastern.instructure.com/courses/6
 https://github.com/aprilbingham-neu/seainfo6150-final-project-webapp
 
 ## Forking and cloning repo
-1. Go to the git repo link above
+1. Go to the git repo link: https://github.com/aprilbingham-neu/seainfo6150-final-project-webapp
 2. Click “Fork” to create your copy of the repo
-3. Click “Clone or download” to get a link to copy your fork on your computer
-4. Click “Use HTTPS”
-5. Copy link
+4. Click the “Code” button to get a link to copy your fork on your computer
+5. Click “Use HTTPS”
+6. Copy link
 6. Open command line/terminal window and use these commands in a **directory where you have admin permissions**
 ```
 git clone [copied link]
