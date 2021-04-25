@@ -1,0 +1,15 @@
+.container {
+    gap: 20px;
+    list-style-type: none;
+    padding: 5px;
+    width:90%;
+    background-color:rgb(238, 238, 238) ;
+    float:left;
+  }
+  
+  @media screen and (min-width: 900px) {
+    .container {
+      width: 60%;
+    }
+  }
+  

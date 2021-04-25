@@ -1,16 +1,19 @@
-import React from 'react'
-import Form from "../Form/Form";
-import treefrog from "../images/treefrog.jpg";
+import React,{ useState } from "react";
+import styles from "./Home.module.css";
+import HomePageItem from "../HomePageItem/HomePageItem.jsx";
 
-const Home = () => {
-    return (
-        <div>
-            The home page
-            <h1>I changed this homepage</h1>
-            <img src={treefrog} alt="tree frog" />
-            <Form />
-        </div>
-    )
-}
+const Home = (props) => {
 
-export default Home
+  return (
+    <div>
+      <ul className={styles.container}>
+        {props.techArticle.map((article) => (
+          <HomePageItem article={article} key={article.id} />
+        ))}
+      </ul>
+    </div>
+  );
+};
+
+
+export default Home;

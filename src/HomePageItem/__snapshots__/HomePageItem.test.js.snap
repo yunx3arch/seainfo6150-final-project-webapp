@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePageItem tests rendered correctly 1`] = `
+<div>
+  <li
+    class="container"
+  >
+    <article
+      class="article"
+    >
+      <header
+        class="header"
+      >
+        <div
+          class="topLabel"
+        >
+            
+        </div>
+        <time
+          class="time"
+          datetime="Thu, 22 Nov 2018 15:12:24 GMT"
+        >
+          Thu, 22 Nov 2018 15:12:24 GMT
+        </time>
+        <h1
+          class="title"
+        >
+          <a
+            class="link"
+            href="/articlelist/001"
+          >
+            Coinbase Makes Its Debut—and Bitcoin Arrives on Wall Street
+          </a>
+        </h1>
+      </header>
+      <div
+        class="wrapper"
+      >
+        <p>
+          The big cryptocurrency exchange goes public through a direct listing, and it could make a bigger debut than Facebook.
+        </p>
+        <a
+          href="/articlelist/001"
+        >
+          <img
+            alt="Coinbase Makes Its Debut—and Bitcoin Arrives on Wall Street"
+            class="image"
+            src="https://cdn.cnn.com/cnnnext/dam/assets/181122102925-statue-of-liberty-crown-super-169.jpg"
+          />
+        </a>
+      </div>
+    </article>
+  </li>
+</div>
+`;

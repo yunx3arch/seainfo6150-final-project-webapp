@@ -1,0 +1,57 @@
+.header{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height:3rem;
+    height: 100%;
+    border-bottom: 1px solid #c8c8c8;
+    width: 100%;
+}
+.logo{
+    width: calc((100vw - 2.5rem)/12*3);
+    max-width: 9.84375rem;
+    display:flex;
+}
+.title{
+    font-family: NeueHaas,input mono,sans-serif;
+    font-size: 2rem;
+    margin: 15px;
+    align-items: left;
+
+}
+
+button{
+    background:transparent;
+    margin:10px;
+
+}
+button:hover{
+    background-color: black;
+    color:white;
+
+}
+.buttonGroup{
+    display: sticky;
+    align-self: flex-end;
+
+    float:right;
+    
+
+}
+
+
+.headerNavi{
+    border:none;
+
+    font-family: NeueHaas,input mono,sans-serif;
+    background-color: transparent;
+    text-align: right;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    position: relative;
+    vertical-align:bottom;
+    justify-content:flex-end;
+}

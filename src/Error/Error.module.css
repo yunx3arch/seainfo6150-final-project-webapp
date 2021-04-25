@@ -1,0 +1,9 @@
+.error{
+    font-family: NeueHaas,input mono,sans-serif;
+    font-size:2rem;
+    color:rgb(0, 0, 0);
+    margin:auto;
+    padding:5rem;
+    position:relative;
+    display:inline-block;
+}

@@ -1,0 +1,16 @@
+.container {
+  gap: 20px;
+  list-style-type: none;
+  display:float;
+  float:left;
+  padding: 5px;
+  width:90%;
+  background-color:rgb(238, 238, 238) ;
+  float:left;
+}
+
+@media screen and (min-width: 1500px) {
+  .container {
+    width: 60%;
+  }
+}
