@@ -1,0 +1,42 @@
+.singleNews {
+    background: #fff;
+    padding: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    color: #000;
+    font-family: Independent,serif;
+    line-height: 3rem;
+    display: inline-block;
+
+  }
+  .text{
+    max-width: 45rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+
+  }
+  @media (min-width: 1000px) {
+    .text {
+     font-size:1.75rem;
+    }
+  }
+
+
+.back {
+    display: block;
+    max-width:1rem;
+    max-height:1rem;
+    padding:.5rem;
+}
+.articleImage{
+  display:inline-block;
+  width:60%;
+}
+.author{
+  display:inline-block;
+  font-family: NeueHaas,input mono,sans-serif;
+  font-size:.75rem;
+  margin-bottom:6rem;
+  border-bottom: 1px solid black;
+
+}
