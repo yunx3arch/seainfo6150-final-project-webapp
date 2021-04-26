@@ -1,0 +1,46 @@
+.subscribeContainer{
+    background-color:rgb(255, 255, 255) ;
+    padding: 30px;
+    margin:45px;
+    font-family: NeueHaas,input mono,sans-serif;
+    font-size: 1.25rem;
+    display:inline-block;
+    width:60;
+
+    
+  }
+
+  
+  @media screen and (min-width: 1500px) {
+    .subscribeContainer {
+      max-width: 20rem;
+      float:right;
+      align-items: center;
+      width:60%;
+
+    }
+  }
+ 
+  .subscribeButton{
+    background-color: rgb(0, 0, 0);
+    color:white;
+    border:none;
+    font-size: 1rem;
+    padding:.75rem;
+    position:relative;
+    display:block;
+  }
+  .subscribeButton:hover{
+    font-size: 1.5rem;
+
+  }
+  .thanksSub{
+    background-color:rgb(255, 255, 255) ;
+    padding: 30px;
+    margin:45px;
+    font-family: NeueHaas,input mono,sans-serif;
+    font-size: 1.25rem;
+    display:inline-block;
+    width:60;
+  }
+ 
